@@ -1,4 +1,4 @@
-# flight_bokimg_app
+# flight_booking_app
 
 A new Flutter project.
 
