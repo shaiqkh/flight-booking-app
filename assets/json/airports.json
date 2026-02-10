@@ -1,0 +1,124 @@
+{
+  "airports": [
+    {
+      "id": 1,
+      "code": "DEL",
+      "name": "Indira Gandhi International Airport",
+      "city": "Delhi",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 2,
+      "code": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj International Airport",
+      "city": "Mumbai",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 3,
+      "code": "BLR",
+      "name": "Kempegowda International Airport",
+      "city": "Bangalore",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 4,
+      "code": "HYD",
+      "name": "Rajiv Gandhi International Airport",
+      "city": "Hyderabad",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 5,
+      "code": "MAA",
+      "name": "Chennai International Airport",
+      "city": "Chennai",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 6,
+      "code": "CCU",
+      "name": "Netaji Subhas Chandra Bose International Airport",
+      "city": "Kolkata",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 7,
+      "code": "GOI",
+      "name": "Goa International Airport",
+      "city": "Goa",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 8,
+      "code": "PNQ",
+      "name": "Pune Airport",
+      "city": "Pune",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 9,
+      "code": "AMD",
+      "name": "Sardar Vallabhbhai Patel International Airport",
+      "city": "Ahmedabad",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 10,
+      "code": "COK",
+      "name": "Cochin International Airport",
+      "city": "Kochi",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 11,
+      "code": "JAI",
+      "name": "Jaipur International Airport",
+      "city": "Jaipur",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 12,
+      "code": "LKO",
+      "name": "Chaudhary Charan Singh International Airport",
+      "city": "Lucknow",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 13,
+      "code": "IXC",
+      "name": "Chandigarh International Airport",
+      "city": "Chandigarh",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 14,
+      "code": "TRV",
+      "name": "Trivandrum International Airport",
+      "city": "Thiruvananthapuram",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "id": 15,
+      "code": "VNS",
+      "name": "Lal Bahadur Shastri International Airport",
+      "city": "Varanasi",
+      "country": "India",
+      "timezone": "Asia/Kolkata"
+    }
+  ]
+}

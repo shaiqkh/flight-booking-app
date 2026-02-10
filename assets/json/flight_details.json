@@ -1,0 +1,314 @@
+{
+  "flightDetails": {
+    "id": "FL001",
+    "bookingId": "BK20260128001",
+    "status": "Available",
+    "airline": {
+      "code": "6E",
+      "name": "IndiGo",
+      "logo": "https://example.com/airlines/indigo.png",
+      "contact": "+91-9910383838",
+      "website": "https://www.goindigo.in"
+    },
+    "aircraft": {
+      "model": "Airbus A320neo",
+      "registration": "VT-IZA",
+      "capacity": 180,
+      "configuration": "3-3"
+    },
+    "itinerary": {
+      "segments": [
+        {
+          "segmentId": 1,
+          "flightNumber": "6E-2134",
+          "origin": {
+            "code": "DEL",
+            "name": "Indira Gandhi International Airport",
+            "city": "Delhi",
+            "terminal": "T3",
+            "gate": "23A"
+          },
+          "destination": {
+            "code": "BOM",
+            "name": "Chhatrapati Shivaji Maharaj International Airport",
+            "city": "Mumbai",
+            "terminal": "T2",
+            "gate": "42B"
+          },
+          "departure": {
+            "scheduledTime": "06:00",
+            "date": "2026-01-28",
+            "timezone": "IST",
+            "localDateTime": "2026-01-28T06:00:00+05:30"
+          },
+          "arrival": {
+            "scheduledTime": "08:15",
+            "date": "2026-01-28",
+            "timezone": "IST",
+            "localDateTime": "2026-01-28T08:15:00+05:30"
+          },
+          "duration": "2h 15m",
+          "distance": "1150 km",
+          "operatingAirline": "IndiGo",
+          "cabinClass": "Economy",
+          "bookingClass": "V"
+        }
+      ],
+      "totalDuration": "2h 15m",
+      "stops": 0,
+      "totalDistance": "1150 km"
+    },
+    "fare": {
+      "breakdown": {
+        "baseFare": 4500,
+        "fuelSurcharge": 450,
+        "airportTax": 200,
+        "passengerServiceFee": 125,
+        "gst": 50,
+        "total": 5325
+      },
+      "currency": "INR",
+      "perPassenger": 5325,
+      "passengers": [
+        {
+          "type": "Adult",
+          "count": 1,
+          "farePerPassenger": 5325
+        }
+      ],
+      "paymentOptions": [
+        "Credit Card",
+        "Debit Card",
+        "UPI",
+        "Net Banking",
+        "Wallet"
+      ]
+    },
+    "baggage": {
+      "cabin": {
+        "allowance": "7 Kg",
+        "dimensions": "55 x 35 x 25 cm",
+        "pieces": 1,
+        "notes": "One handbag or laptop bag in addition to cabin baggage"
+      },
+      "checkin": {
+        "allowance": "15 Kg",
+        "pieces": 1,
+        "additionalBaggagePrice": 500,
+        "additionalBaggageIncrement": "5 Kg",
+        "maxWeight": "32 Kg per bag"
+      },
+      "specialItems": {
+        "sportingEquipment": "Allowed with advance booking",
+        "musicalInstruments": "Allowed as cabin baggage if under size limits",
+        "medicalEquipment": "Allowed without charge"
+      }
+    },
+    "cancellation": {
+      "policy": {
+        "allowed": true,
+        "refundable": true,
+        "conditions": [
+          {
+            "timeBeforeDeparture": "> 48 hours",
+            "cancellationFee": 2000,
+            "refundPercentage": 85
+          },
+          {
+            "timeBeforeDeparture": "24-48 hours",
+            "cancellationFee": 3000,
+            "refundPercentage": 70
+          },
+          {
+            "timeBeforeDeparture": "< 24 hours",
+            "cancellationFee": 4000,
+            "refundPercentage": 50
+          }
+        ],
+        "noShow": {
+          "refund": false,
+          "note": "No refund for no-show passengers"
+        }
+      },
+      "dateChange": {
+        "allowed": true,
+        "fee": 2500,
+        "fareDifference": "Applicable",
+        "conditions": "Date change subject to seat availability"
+      }
+    },
+    "amenities": {
+      "inflight": [
+        {
+          "name": "Seat Selection",
+          "available": true,
+          "free": false,
+          "price": 200,
+          "description": "Choose your preferred seat"
+        },
+        {
+          "name": "Meals",
+          "available": true,
+          "free": false,
+          "price": 350,
+          "description": "Pre-book your meal. Vegetarian and Non-vegetarian options available"
+        },
+        {
+          "name": "USB Charging",
+          "available": true,
+          "free": true,
+          "description": "Charge your devices during flight"
+        },
+        {
+          "name": "Priority Boarding",
+          "available": true,
+          "free": false,
+          "price": 400,
+          "description": "Board the aircraft before general boarding"
+        }
+      ],
+      "groundServices": [
+        {
+          "name": "Web Check-in",
+          "available": true,
+          "timing": "48 hours to 2 hours before departure"
+        },
+        {
+          "name": "Airport Check-in",
+          "available": true,
+          "timing": "Opens 2 hours before departure"
+        },
+        {
+          "name": "Lounge Access",
+          "available": false
+        }
+      ],
+      "accessibility": [
+        {
+          "name": "Wheelchair Assistance",
+          "available": true,
+          "notes": "Request at booking or 48 hours before departure"
+        },
+        {
+          "name": "Special Meals",
+          "available": true,
+          "notes": "Diabetic, gluten-free, vegan options available"
+        }
+      ]
+    },
+    "seatMap": {
+      "available": true,
+      "layout": "3-3",
+      "rows": 30,
+      "seatTypes": [
+        {
+          "type": "Standard",
+          "price": 0,
+          "rows": "8-30"
+        },
+        {
+          "type": "Extra Legroom",
+          "price": 500,
+          "rows": "1, 12, 13"
+        },
+        {
+          "type": "Front Row",
+          "price": 300,
+          "rows": "2-7"
+        }
+      ],
+      "occupancy": {
+        "available": 42,
+        "booked": 138,
+        "total": 180
+      }
+    },
+    "checkinInfo": {
+      "webCheckin": {
+        "opens": "48 hours before departure",
+        "closes": "2 hours before departure",
+        "url": "https://www.goindigo.in/web-check-in.html"
+      },
+      "airportCheckin": {
+        "opens": "2 hours before departure",
+        "closes": "45 minutes before departure",
+        "counters": "Terminal 3, Rows 1-15"
+      },
+      "boardingPass": {
+        "format": ["Mobile", "Email", "Print"],
+        "required": "Mandatory for boarding"
+      }
+    },
+    "importantInfo": [
+      "Carry a valid government-issued photo ID for domestic travel",
+      "Arrive at airport at least 2 hours before departure",
+      "Check-in closes 45 minutes before departure",
+      "Boarding gate closes 25 minutes before departure",
+      "Flight timings are subject to change. Check status before departure",
+      "Passengers arriving from international destinations must carry RT-PCR negative report if required",
+      "Carry sufficient documents for connecting flights if any"
+    ],
+    "terms": {
+      "fareRules": "Fare is non-refundable. Date change charges apply.",
+      "baggagePolicy": "Additional baggage charges apply for excess baggage",
+      "agePolicy": "Infant (0-2 years), Child (2-12 years), Adult (12+ years)",
+      "identificationRequirements": "Government-issued photo ID mandatory for all passengers"
+    },
+    "ratings": {
+      "overall": 4.2,
+      "punctuality": 4.5,
+      "service": 4.0,
+      "comfort": 4.1,
+      "valueForMoney": 4.3,
+      "totalReviews": 28547
+    },
+    "popularAddons": [
+      {
+        "id": "addon1",
+        "name": "Travel Insurance",
+        "description": "Comprehensive travel insurance covering cancellation, medical emergencies, and baggage loss",
+        "price": 199,
+        "recommended": true
+      },
+      {
+        "id": "addon2",
+        "name": "Priority Check-in",
+        "description": "Skip the queue with priority check-in service",
+        "price": 300,
+        "recommended": false
+      },
+      {
+        "id": "addon3",
+        "name": "Lounge Access",
+        "description": "Access to premium airport lounge with complimentary food and beverages",
+        "price": 800,
+        "recommended": false
+      },
+      {
+        "id": "addon4",
+        "name": "Airport Transfer",
+        "description": "Book cab from airport to your destination",
+        "price": 500,
+        "recommended": true
+      }
+    ],
+    "alternativeFlights": [
+      {
+        "id": "FL002",
+        "airline": "Air India",
+        "departure": "07:30",
+        "arrival": "09:50",
+        "price": 6150,
+        "priceDifference": 825
+      },
+      {
+        "id": "FL003",
+        "airline": "SpiceJet",
+        "departure": "09:15",
+        "arrival": "11:35",
+        "price": 4495,
+        "priceDifference": -830
+      }
+    ]
+  }
+}
